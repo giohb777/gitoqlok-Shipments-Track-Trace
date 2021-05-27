@@ -1,0 +1,2493 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "ADDRESSUSEZIPPLUS4",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "ADDRFORMAT",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Actual Container Delivery Date",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Actual Division",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Alarm",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "ArrivalActual",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "InttraDetailsLocationsDate"
+    ]
+  },
+  {
+    "qName": "ArrivalEstimated",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "InttraDetailsLocationsDate"
+    ]
+  },
+  {
+    "qName": "BANKACCOUNTNUMVALIDATION",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "BUSINESSUNITDATAAREAID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Backlog Order Kg",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Oepn_Sales_Orders"
+    ]
+  },
+  {
+    "qName": "Backlog Order Quantity",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Oepn_Sales_Orders"
+    ]
+  },
+  {
+    "qName": "Backlog Order Quantity Unit",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Oepn_Sales_Orders"
+    ]
+  },
+  {
+    "qName": "Branch",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Business Unit Account",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Country",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Currency Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Key",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Business_Units",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Business Unit Location",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "CARRIERSCAC",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CONCOUNT",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CONTAINER",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CONTAINER_FIRST_EVENT_DATE",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "COOCode",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "COUNTRYREGIONID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CREATEDBY",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CREATEDDATETIME",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "CURRENCYCODE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Carrier",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Carrier AX",
+    "qTags": [],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Carrier Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Carrier Inttra",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Delivery Date",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Master Calendar Date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Container Number",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "IntraaFullData",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Number AX",
+    "qTags": [],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Number INTTRA",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Reference",
+    "qTags": [],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Container Requested Delivery Date",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Conveyance Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Country Of Destination",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Country Of Destination Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Country Of Origin",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Customer Account",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Additional Growth",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Affiliation Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Area",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Business RelationShip",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Business Unit",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Chain",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Class",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Country",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Creation Year",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Geog. Proximity",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Group",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Coverage",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Payment Term",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Premium",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Provider",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Invoice Account",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Joint Product",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Key",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Customers",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Customer Key Account",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Key Account LV2",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer MQP Classification",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Main Contact",
+    "qTags": [],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Market Dominnace",
+    "qTags": [],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Multinational",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Name",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Name PO",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Customer Payment Term",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Payment Terms Number Of Days",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Product Widening",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Purchase Behavior",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Relationship",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Requisition",
+    "qTags": [],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Customer Salesman",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Sector - Profile",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Statistics Group",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Sub Sector - Profile",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Unit",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer WinBack",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "CutOff Load Date",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "CutOff Ship Date",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "DATAAREAID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "DATABASEID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "DEL_EUROZONECOUNTRYREGION",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "DEL_NPIBANKINGPAYMIDTYPE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Day",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Delivery Address",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Delivery Country",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "DepartureActual",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "InttraDetailsLocationsDate"
+    ]
+  },
+  {
+    "qName": "DepartureEstimated",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "InttraDetailsLocationsDate"
+    ]
+  },
+  {
+    "qName": "Details Location Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaDetailsLocations"
+    ]
+  },
+  {
+    "qName": "Details Location Country",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaDetailsLocations"
+    ]
+  },
+  {
+    "qName": "Details Location Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaDetailsLocations"
+    ]
+  },
+  {
+    "qName": "Details LocationDateTime",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaDetailsLocations"
+    ]
+  },
+  {
+    "qName": "Details LocationDateType",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaDetailsLocations"
+    ]
+  },
+  {
+    "qName": "Dimensions",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dimensions"
+    ]
+  },
+  {
+    "qName": "DimensionsID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dimensions"
+    ]
+  },
+  {
+    "qName": "Division",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Document Identifier",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "IntraaFullData",
+      "IntraaDetailsLocations",
+      "InttraReferenceInformations",
+      "InttraDetailsLocationsDate"
+    ]
+  },
+  {
+    "qName": "EEACOUNTRY",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EVENTCODE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EVENTDESCRIPTION",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Equipment Identifier",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Equipment Identifier LoadType",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Equipment Type Code",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Event Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Event Creation Date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Event Description",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Event Details",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Event Location Country Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Event Time",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "EventLocation Agency",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocation Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocation Country",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocation DateType",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocation Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocation Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocationDateTime",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "EventLocationDateTimeActual",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Export Time",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "FILENAME",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Full Transit Time- En Route",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Full Transit Time- Loaded",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Full transit Time - Production ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "GIROACCOUNTVALIDATIONMETHOD",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 1.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 2.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 2.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Type 2.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 1.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 2.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 2.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Communication Value 2.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Contact Name 1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Contact Name 2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Identifier 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Identifier 2",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Identifier Agency 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Identifier Agency 2",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Name 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Name 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Name 2.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Name 2.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Role 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Header Partner Role 2",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Holding",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "INTRASTATCODE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "ISOCODE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Import Time",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Inttra Container Number",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Line Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Line PO Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "QTY"
+    ]
+  },
+  {
+    "qName": "Line PO QTY",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "QTY"
+    ]
+  },
+  {
+    "qName": "Line Unit",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "QTY"
+    ]
+  },
+  {
+    "qName": "MODIFIEDBY",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "MODIFIEDDATETIME",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date Num",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "QTY",
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date PO",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Measure Group",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Measures",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Measures"
+    ]
+  },
+  {
+    "qName": "MeasuresID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Measures"
+    ]
+  },
+  {
+    "qName": "Message Address Line 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Address Line 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Address Line 1.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Address Line 1.4",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Type 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Type 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Type 1.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Value 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Value 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Communication Value 1.3",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Contact Name 1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Creation Date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Date Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Partner Identifier 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Partner Identifier Agency 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Partner Name 1.1",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Partner Name 1.2",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Partner Role 1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Message Version",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "MessageDateTime",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "MessageDateTimeActual",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Day",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month ID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Num",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Year",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "NAME",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Order Customer Key",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "PO Delivery Date",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "PO Delivery Terms",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "POD Code",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "PORT",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "PORT Excel",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Port Of Loading",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Port of Destination",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Position",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Purchase Order",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Purchase Order Key",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "QTY",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Quarter",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Quarter ID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "RDD - TNTD",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "RECID",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "RECVERSION",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "REQESTEDDELIVERYDATE",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Reference Info",
+    "qTags": [],
+    "qSrcTables": [
+      "InttraReferenceInformations"
+    ]
+  },
+  {
+    "qName": "Reference Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "InttraReferenceInformations"
+    ]
+  },
+  {
+    "qName": "SO Creation Date",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "SO Status",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "STAGE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Sales ID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Sales Order Key",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Oepn_Sales_Orders",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Salesman",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Grading Key",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman ID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Salesman Key",
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Salesmen",
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Salesman Level1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Level2",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Level3",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Shipment Comment Type",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Shipment Comments",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Status",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Step Number",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "TAXCODE",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "TAXVATNUMFORMATCHECK",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "TIMEZONE",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "TYPE",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Time Needed To Deliver",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Transit Time",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Transport Identification",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Transport Identification Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Transport Mode",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Transport Stage",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Vendor Country",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Vendor ID",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Vendor Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Voyage Trip Number",
+    "qTags": [],
+    "qSrcTables": [
+      "IntraaFullData"
+    ]
+  },
+  {
+    "qName": "Waybill Date",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Waybill Number",
+    "qTags": [],
+    "qSrcTables": [
+      "PurchaseOrders"
+    ]
+  },
+  {
+    "qName": "Week",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Week Day",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Week Year",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Year",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  }
+]

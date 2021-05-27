@@ -1,0 +1,152 @@
+[
+  {
+    "qInfo": {
+      "qId": "02a99912-1f9b-413d-81d3-23a72a4c849a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Month_ID",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Group]= {'Purchase Orders'},Year=$::Year,Quarter=$::Quarter,[Month Year]=$::[Month Year],[Month Num]=$::[Month Num],Month=$::Month>}[Month ID])",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "1a6532a1-5bf2-485d-9ba4-f187fdea9ed0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMinCalendarDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "43101",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "2f24b301-359e-4d25-bfac-aaaf59362af4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTodaysDateYear",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2021",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "4d80c3c3-34ee-4f3c-a200-a2ead2550424",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "ClimberCustomReportGdAQDcD",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qIncludeInBookmark": true,
+    "qDefinition": "{\"options\":{\"fieldsAndSortbarVisible\":true,\"activeReportId\":\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\",\"cacheId\":1573642241108},\"states\":{\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\":{\"qId\":\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\",\"title\":\"Sales Details\",\"cIds\":[],\"visualizationType\":\"table\",\"visualizationState\":{\"table\":{\"qInterColumnSortOrder\":[],\"columnWidths\":{},\"qSuppressZero\":false,\"totals\":[\"jVpjr\"],\"qColumnOrder\":[]}}}}}"
+  },
+  {
+    "qInfo": {
+      "qId": "98767615-e900-4a4b-836c-ee9cbff0cb25",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1<[Measure Group]= {'Purchase Orders'},Year=$::Year,Quarter=$::Quarter,[Month Year]=$::[Month Year],[Month Num]=$::[Month Num],Month=$::Month>}Year)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9cb93c73-f2b8-4b4f-b040-59024ce1ff4e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTodaysDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "5/27/2021",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "b9483c5f-3659-48c8-9a3e-208ccc02e361",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Selected_Dimension_One",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "beb7f902-b9fa-494e-b47a-dd8222631b79",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxCalendarDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "44926",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "cddd4ae2-19f0-4768-a5d5-591b1caca727",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Max_Year_1",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Max({1 <Year=P(Year),Quarter=P(Quarter),[Month Year]=P([Month Year]),[Month Num]=P([Month Num]),Month=P(Month)>}Year)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "fdbb66da-e5fb-45c5-b9bd-13a830f5cb10",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Switch_Option_CM_YTD",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2",
+    "tags": []
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "qInfo": {
+      "qId": "99fa2f1e-2ad0-4c0e-aa16-d330ced0de9b",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Self Service",
+      "description": ""
+    },
+    "creationDate": "2019-11-13T10:57:54.036Z",
+    "sheetId": "e9fc4d89-eb35-4641-ae5b-54cba308044b",
+    "selectionFields": "Dimensions, Measures",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "Dimensions",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              },
+              {
+                "qDef": {
+                  "qName": "Measures",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43782.54020833333,
+        "qVariableItems": [
+          {
+            "qName": "ClimberCustomReportGdAQDcD",
+            "qValue": {
+              "qText": "{\"options\":{\"fieldsAndSortbarVisible\":true,\"activeReportId\":\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\",\"cacheId\":1573642241108},\"states\":{\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\":{\"qId\":\"ec7b22d5-ecdc-4289-8fcb-ddd30eb6a058\",\"title\":\"Sales Details\",\"cIds\":[],\"visualizationType\":\"table\",\"visualizationState\":{\"table\":{\"qInterColumnSortOrder\":[],\"columnWidths\":{},\"qSuppressZero\":false,\"totals\":[\"jVpjr\"],\"qColumnOrder\":[]}}}}}",
+              "qNumber": "NaN"
+            }
+          }
+        ],
+        "qPatches": []
+      }
+    }
+  }
+]
